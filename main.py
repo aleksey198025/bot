@@ -5,7 +5,9 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 from db import DataBase
 
-db_client = DataBase("bot.db")
+name_db = "bot.db"
+
+db_client = DataBase(name_db)
 
 TOKEN = "6903817748:AAF0XbjrRgl6A4jE70iwvRPH0AzS_xE3Q2o"
 
